@@ -2,7 +2,7 @@
   "name": "react-datagrid",
   "version": "1.0.0",
   "description": "A simple data table",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -25,7 +25,6 @@
     "url": "https://github.com/vandercijr/datagrid/issues"
   },
   "homepage": "https://github.com/vandercijr/datagrid#readme",
-  "type": "module",
   "dependencies": {
     "react": "^18.2.0"
   },
