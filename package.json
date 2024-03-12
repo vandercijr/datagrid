@@ -1,0 +1,52 @@
+{
+  "name": "react-datagrid",
+  "version": "1.0.0",
+  "description": "A simple data table",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandercijr/datagrid.git"
+  },
+  "keywords": [
+    "table",
+    "datagrid",
+    "react"
+  ],
+  "author": "vanderci c junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vandercijr/datagrid/issues"
+  },
+  "homepage": "https://github.com/vandercijr/datagrid#readme",
+  "type": "module",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/node": "^20.11.25",
+    "@types/react": "^18.2.64",
+    "@vitejs/plugin-legacy": "^5.3.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "cypress": "^13.2.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "jsdom": "^22.1.0",
+    "postcss": "^8.4.31",
+    "prettier": "^3.0.3",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.4",
+    "vitest": "^0.32.2"
+  }
+}
